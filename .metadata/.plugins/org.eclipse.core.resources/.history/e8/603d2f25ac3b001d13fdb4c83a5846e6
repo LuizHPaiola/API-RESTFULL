@@ -1,0 +1,12 @@
+package br.com.fiap.to;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class ProdutoTO {
+	private int codigo;
+	private String titulo;
+	private double preco;
+	private int quantidade;
+
+}

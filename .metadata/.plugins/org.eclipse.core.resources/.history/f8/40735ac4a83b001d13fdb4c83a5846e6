@@ -1,0 +1,21 @@
+package br.com.fiap.resource;
+
+import java.lang.reflect.Array;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+@Path("/pessoa")
+public class PessoaResource {
+
+	
+	String [][]matriz = new String[5][3];
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public String[][] buscar() {
+		return matriz;
+	}
+}

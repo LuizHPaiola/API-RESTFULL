@@ -1,0 +1,9 @@
+package br.com.fiap.bo;
+
+public class ProdutoBO {
+
+	public ProdutoBO() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
